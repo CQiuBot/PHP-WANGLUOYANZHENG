@@ -1,0 +1,30 @@
+# 敏感配置
+config.php
+
+# 运行时生成的锁文件和日志
+.last_backup
+.backup_running
+.clean_lock
+backup.log
+api_error.log
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# 备份文件
+backup_*.sql
+*.sql.gz
+
+# 编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python 缓存
+__pycache__/
+*.pyc
